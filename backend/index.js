@@ -79,6 +79,7 @@ function spendPoints(points){
             break
         }
         else{
+            //If transaction points are positive
             if(transactions[i].points > 0){
                 if(transactions[i].points < pointsLeft)
                 {
@@ -110,6 +111,7 @@ function spendPoints(points){
                 }
                 console.log("POINTS LEFT:", pointsLeft)
             }
+            //If transaction points are negative
             else{
                 pointsLeft += (transactions[i].points * -1)
                 console.log("POINTS LEFT:", pointsLeft)
