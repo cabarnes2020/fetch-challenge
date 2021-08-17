@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Fetch-Rewards Challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server":"nodemon index.js",
+    "server:debug": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christion Barnes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "requests": "^0.3.0",
+    "validator": "^13.6.0"
+  }
+}
